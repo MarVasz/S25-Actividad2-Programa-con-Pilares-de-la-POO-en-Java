@@ -4,6 +4,7 @@ public class Persona {
     private String genero;
     private int edad;
 
+    // Constructor
     public Persona(String nombre, String apellido, String genero, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -11,8 +12,9 @@ public class Persona {
         this.edad = edad;
     }
 
+    // Métodos getter
     public String getNombre() {
-        return nombre + " " + apellido;
+        return nombre;
     }
 
     public String getGenero() {
